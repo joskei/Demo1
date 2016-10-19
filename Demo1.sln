@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfDemo", "WcfDemo\WcfDemo.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFNonSSL", "WCFNonSSL\WCFNonSSL.csproj", "{987824AE-8F48-4ECC-A17E-EF060D41B1A3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFVerySecure", "WCFVerySecure\WCFVerySecure.csproj", "{3D26340F-3557-4CA3-9695-98E4A40982F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{987824AE-8F48-4ECC-A17E-EF060D41B1A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{987824AE-8F48-4ECC-A17E-EF060D41B1A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{987824AE-8F48-4ECC-A17E-EF060D41B1A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D26340F-3557-4CA3-9695-98E4A40982F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D26340F-3557-4CA3-9695-98E4A40982F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D26340F-3557-4CA3-9695-98E4A40982F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D26340F-3557-4CA3-9695-98E4A40982F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
