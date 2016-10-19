@@ -7,6 +7,7 @@ using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.ServiceModel.Web;
 using System.Text;
+using System.Web.Services;
 using WcfDemo;
 
 namespace WCFVerySecure
@@ -19,16 +20,17 @@ namespace WCFVerySecure
         {
             public override void Validate(string userName, string password)
             {
-                if (string.Equals(userName, @"\Joseph", StringComparison.OrdinalIgnoreCase)
-                    && password == "SuperSecretPassword") return;
+                if (string.Equals(userName, "Joseph", StringComparison.OrdinalIgnoreCase)
+                    && password == "Entergy123") return;
                 throw new SecurityTokenValidationException();
             }
         }
 
-        [WebInvoke(Method = "GET",
-            ResponseFormat = WebMessageFormat.Json,
-            BodyStyle = WebMessageBodyStyle.Wrapped,
-            UriTemplate = "GetCustomers")]
+        //[WebInvoke(Method = "GET",
+        //    ResponseFormat = WebMessageFormat.Json,
+        //    BodyStyle = WebMessageBodyStyle.Wrapped,
+        //    UriTemplate = "GetCustomers")]
+        [WebMethod]
         public List<Customer> GetCustomerList()
         {
             return PopulateCustomerData();

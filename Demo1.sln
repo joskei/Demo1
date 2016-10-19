@@ -11,6 +11,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFNonSSL", "WCFNonSSL\WCFN
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFVerySecure", "WCFVerySecure\WCFVerySecure.csproj", "{3D26340F-3557-4CA3-9695-98E4A40982F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFVerySecureClient", "WCFVerySecureClient\WCFVerySecureClient.csproj", "{C3738EEA-322F-4EB7-BD38-BE9AA205C8EE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3D26340F-3557-4CA3-9695-98E4A40982F0} = {3D26340F-3557-4CA3-9695-98E4A40982F0}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFNonSSLClient", "WCFNonSSLClient\WCFNonSSLClient.csproj", "{BF20FE4D-F960-4CF0-A743-0C49A8F8A7C8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{987824AE-8F48-4ECC-A17E-EF060D41B1A3} = {987824AE-8F48-4ECC-A17E-EF060D41B1A3}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfNonSSL_WebClient", "WcfNonSSL_WebClient\WcfNonSSL_WebClient.csproj", "{5ABE3FEF-B424-4F76-93BD-6527CE705E98}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +45,18 @@ Global
 		{3D26340F-3557-4CA3-9695-98E4A40982F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D26340F-3557-4CA3-9695-98E4A40982F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D26340F-3557-4CA3-9695-98E4A40982F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3738EEA-322F-4EB7-BD38-BE9AA205C8EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3738EEA-322F-4EB7-BD38-BE9AA205C8EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3738EEA-322F-4EB7-BD38-BE9AA205C8EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3738EEA-322F-4EB7-BD38-BE9AA205C8EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF20FE4D-F960-4CF0-A743-0C49A8F8A7C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF20FE4D-F960-4CF0-A743-0C49A8F8A7C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF20FE4D-F960-4CF0-A743-0C49A8F8A7C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF20FE4D-F960-4CF0-A743-0C49A8F8A7C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ABE3FEF-B424-4F76-93BD-6527CE705E98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ABE3FEF-B424-4F76-93BD-6527CE705E98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ABE3FEF-B424-4F76-93BD-6527CE705E98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ABE3FEF-B424-4F76-93BD-6527CE705E98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
