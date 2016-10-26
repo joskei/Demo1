@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using System.Threading;
+using System.Threading.Tasks;
 
-namespace LonelyInteger
+namespace LonelyIntegerV4._6._1
 {
     class Program
     {
@@ -19,15 +21,10 @@ namespace LonelyInteger
             }
             var ar = input.Split(' ');
 
-            var res = 0;
-            foreach (var item in ar)
-            {
-                res = res ^ int.Parse(item);
-            }
-            
+            var res = ar.Aggregate(0, (current, item) => current ^ int.Parse(item));
+
             Console.WriteLine("Lonely Integer is : " + res);
             Console.ReadLine();
-
         }
     }
 }
