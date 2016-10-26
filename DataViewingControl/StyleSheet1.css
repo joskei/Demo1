@@ -1,0 +1,9 @@
+﻿.rTable { display: table; }
+.rTableRow { display: table-row; }
+.rTableHeading { display: table-header-group; }
+.rTableBody { display: table-row-group; }
+.rTableFoot { display: table-footer-group; }
+.rTableCellDesc { display: table-cell;border-left: 1px solid black; border-top: 0; border-right: 0;border-bottom: 1px solid black; }
+.rTableCellName { display: table-cell;border-left: 1px solid black; border-top: 0; border-right: 1px solid black;border-bottom: 1px solid black; }
+.rTableHeadDesc { display: table-cell;width: 680px;font-weight: bold;text-align: center; border-left: 1px solid black; border-top: 1px solid black; border-right: 0;border-bottom: 1px solid black; }
+.rTableHeadName { display: table-cell;width: 120px;font-weight: bold;text-align: center; border-left: 1px solid black; border-top: 1px solid black; border-right: 1px solid black;border-bottom: 1px solid black; }

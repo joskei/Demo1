@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaircaseV4.6.1", "Staircas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestBoxingUnboxing1", "TestBoxingUnboxing1\TestBoxingUnboxing1.csproj", "{B1733593-9611-40B8-90ED-609D2C75C9D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataViewingControl", "DataViewingControl\DataViewingControl.csproj", "{695A9C2B-6FA4-41F3-81C1-A997F6A1E299}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{B1733593-9611-40B8-90ED-609D2C75C9D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1733593-9611-40B8-90ED-609D2C75C9D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1733593-9611-40B8-90ED-609D2C75C9D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{695A9C2B-6FA4-41F3-81C1-A997F6A1E299}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{695A9C2B-6FA4-41F3-81C1-A997F6A1E299}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{695A9C2B-6FA4-41F3-81C1-A997F6A1E299}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{695A9C2B-6FA4-41F3-81C1-A997F6A1E299}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

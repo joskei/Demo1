@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AccessModifiers>
+
+  <modifier name="public">
+    <desc>The member or type is fully accessible.</desc>
+  </modifier>
+
+  <modifier name="internal">
+    <desc>The member or type is accessible from within its assembly</desc>
+  </modifier>
+
+  <modifier name="private">
+    <desc>The member or type is only accessible from within the enclosing type</desc>
+  </modifier>
+
+  <modifier name="protected">
+    <desc>The member or type is only accessible from within the enclosing class or a class that inherits from the enclosing class</desc>
+  </modifier>
+
+  <modifier name="protected internal">
+    <desc>The member or type is only accessible from within the enclosing class or a class that inherits from the enclosing class or from within its assembly</desc>
+  </modifier>
+
+</AccessModifiers>
+<!--<Infos>
+  <Item>
+    <Name>Edgar</Name>
+    <Id>1</Id>
+    <Hired>2001</Hired>
+  </Item>
+  <Item>
+    <Name>James</Name>
+    <Id>2</Id>
+    <Hired>1999</Hired>
+  </Item>
+  <Item>
+    <Name>Marcy</Name>
+    <Id>3</Id>
+    <Hired>1995</Hired>
+  </Item>
+  <Item>
+    <Name>Dale</Name>
+    <Id>4</Id>
+    <Hired>2005</Hired>
+  </Item>
+</Infos>-->
