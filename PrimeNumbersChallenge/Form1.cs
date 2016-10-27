@@ -44,11 +44,6 @@ namespace PrimeNumbersChallenge
             txtNumOfItems.Text = lstPrimes.Items.Count.ToString();
         }
 
-        private void btnPrimes_Click(object sender, EventArgs e)
-        {
-            
-        }
-
         private List<int> GetAllPrimes(int max)
         {
             var vals = new List<int>((int)(max / (Math.Log(max) - 1.08366)));

@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptimizeCode", "OptimizeCod
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeNumbersChallenge", "PrimeNumbersChallenge\PrimeNumbersChallenge.csproj", "{E2CDD668-2745-4B04-B8C4-4A112E3A5A15}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlankPrimeNumberChallenge", "BlankPrimeNumberChallenge\BlankPrimeNumberChallenge.csproj", "{40D44453-479E-4466-BE41-C78AC9D97779}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{E2CDD668-2745-4B04-B8C4-4A112E3A5A15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2CDD668-2745-4B04-B8C4-4A112E3A5A15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2CDD668-2745-4B04-B8C4-4A112E3A5A15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40D44453-479E-4466-BE41-C78AC9D97779}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40D44453-479E-4466-BE41-C78AC9D97779}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40D44453-479E-4466-BE41-C78AC9D97779}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40D44453-479E-4466-BE41-C78AC9D97779}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
