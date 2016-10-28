@@ -39,11 +39,13 @@ namespace LonelyInteger
 
             //Code Here
 
+            //Using XOR with foreach
             //foreach (var item in ar)
             //{
             //    res = res ^ int.Parse(item);
             //}
 
+            //My one liner
             tmpAr.ForEach(a => res = res ^ a);
 
             Console.WriteLine("Lonely Integer is : " + res);

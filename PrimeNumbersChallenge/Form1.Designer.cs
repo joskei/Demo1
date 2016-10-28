@@ -38,6 +38,7 @@
             this.btnNthPrime = new System.Windows.Forms.Button();
             this.txtNthNumber = new System.Windows.Forms.TextBox();
             this.btnTimerToggle = new System.Windows.Forms.Button();
+            this.lblNthPrime = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lstPrimes
@@ -129,11 +130,20 @@
             this.btnTimerToggle.UseVisualStyleBackColor = true;
             this.btnTimerToggle.Click += new System.EventHandler(this.btnTimerToggle_Click);
             // 
+            // lblNthPrime
+            // 
+            this.lblNthPrime.AutoSize = true;
+            this.lblNthPrime.Location = new System.Drawing.Point(525, 69);
+            this.lblNthPrime.Name = "lblNthPrime";
+            this.lblNthPrime.Size = new System.Drawing.Size(0, 13);
+            this.lblNthPrime.TabIndex = 13;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(661, 265);
+            this.Controls.Add(this.lblNthPrime);
             this.Controls.Add(this.btnTimerToggle);
             this.Controls.Add(this.txtNthNumber);
             this.Controls.Add(this.btnNthPrime);
@@ -164,6 +174,7 @@
         private System.Windows.Forms.Button btnNthPrime;
         private System.Windows.Forms.TextBox txtNthNumber;
         private System.Windows.Forms.Button btnTimerToggle;
+        private System.Windows.Forms.Label lblNthPrime;
     }
 }
 
