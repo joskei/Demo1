@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.lstPrimes = new System.Windows.Forms.ListBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblTimer = new System.Windows.Forms.Label();
             this.txtTimeElapsed = new System.Windows.Forms.TextBox();
             this.txtNumberOfPrimes = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -37,6 +37,7 @@
             this.btnGenerateBelow = new System.Windows.Forms.Button();
             this.btnNthPrime = new System.Windows.Forms.Button();
             this.txtNthNumber = new System.Windows.Forms.TextBox();
+            this.btnTimerToggle = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lstPrimes
@@ -48,14 +49,14 @@
             this.lstPrimes.Size = new System.Drawing.Size(120, 173);
             this.lstPrimes.TabIndex = 3;
             // 
-            // label1
+            // lblTimer
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(379, 98);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(74, 13);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Time Elapsed:";
+            this.lblTimer.AutoSize = true;
+            this.lblTimer.Location = new System.Drawing.Point(379, 98);
+            this.lblTimer.Name = "lblTimer";
+            this.lblTimer.Size = new System.Drawing.Size(74, 13);
+            this.lblTimer.TabIndex = 5;
+            this.lblTimer.Text = "Time Elapsed:";
             // 
             // txtTimeElapsed
             // 
@@ -118,11 +119,22 @@
             this.txtNthNumber.TabIndex = 11;
             this.txtNthNumber.Text = "10000";
             // 
+            // btnTimerToggle
+            // 
+            this.btnTimerToggle.Location = new System.Drawing.Point(368, 140);
+            this.btnTimerToggle.Name = "btnTimerToggle";
+            this.btnTimerToggle.Size = new System.Drawing.Size(94, 23);
+            this.btnTimerToggle.TabIndex = 12;
+            this.btnTimerToggle.Text = "Toggle Timer";
+            this.btnTimerToggle.UseVisualStyleBackColor = true;
+            this.btnTimerToggle.Click += new System.EventHandler(this.btnTimerToggle_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(661, 265);
+            this.Controls.Add(this.btnTimerToggle);
             this.Controls.Add(this.txtNthNumber);
             this.Controls.Add(this.btnNthPrime);
             this.Controls.Add(this.btnGenerateBelow);
@@ -130,7 +142,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtNumberOfPrimes);
             this.Controls.Add(this.txtTimeElapsed);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblTimer);
             this.Controls.Add(this.lstPrimes);
             this.MaximizeBox = false;
             this.Name = "Form1";
@@ -143,7 +155,7 @@
         #endregion
 
         private System.Windows.Forms.ListBox lstPrimes;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblTimer;
         private System.Windows.Forms.TextBox txtTimeElapsed;
         private System.Windows.Forms.TextBox txtNumberOfPrimes;
         private System.Windows.Forms.Label label3;
@@ -151,6 +163,7 @@
         private System.Windows.Forms.Button btnGenerateBelow;
         private System.Windows.Forms.Button btnNthPrime;
         private System.Windows.Forms.TextBox txtNthNumber;
+        private System.Windows.Forms.Button btnTimerToggle;
     }
 }
 

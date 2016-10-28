@@ -95,6 +95,10 @@ namespace PrimeNumbersChallenge
             return vals;
         }
 
-        
+        private void btnTimerToggle_Click(object sender, EventArgs e)
+        {
+            lblTimer.Visible = !lblTimer.Visible;
+            txtTimeElapsed.Visible = !txtTimeElapsed.Visible;
+        }
     }
 }
