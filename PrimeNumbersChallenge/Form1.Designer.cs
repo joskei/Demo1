@@ -118,7 +118,7 @@
             this.txtNthNumber.Name = "txtNthNumber";
             this.txtNthNumber.Size = new System.Drawing.Size(128, 20);
             this.txtNthNumber.TabIndex = 11;
-            this.txtNthNumber.Text = "10000";
+            this.txtNthNumber.Text = "100000";
             // 
             // btnTimerToggle
             // 

@@ -70,17 +70,15 @@ namespace PrimeNumbersChallenge
         private List<int> GetNthPrime(int nth)
         {
             var vals = new List<int>(nth);
-            //Math.Round(nth * Math.Log(nth) * Math.Log(nth))
             //https://primes.utm.edu/nthprime/index.php
+            //This formula estimate the value of nth prime. This means this is the number just above the nth Prime
+            //    0 < nthPrime < nthPrimeEstimateEnd
             var nthPrimeEstimateEnd = nth * (Math.Log(nth) + (Math.Log(Math.Log(nth))));
             var approximateNthCount = Convert.ToInt32(Math.Round(nthPrimeEstimateEnd));
 
-            //MessageBox.Show(approximateNthCount.ToString());
-
             var maxSquareRoot = Math.Sqrt(approximateNthCount);
             var eliminated = new BitArray(approximateNthCount + 1);
-            //var num = int.Parse(txtNumberOfPrimes.Text);
-
+            
             vals.Add(2);
             var iter = 1;
 
